@@ -1,45 +1,59 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# PROBLEMAS LEETCODE
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
-
+**Número da Lista**: 18<br>
+**Conteúdo da Disciplina**: Grafos 2<br>
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| Matrícula  | Aluno                    |
+| ---------- | ------------------------ |
+| 22/2006169 | Natan da Cruz Almeida    |
+| 22/1022408 | Paulo Henrique Lamounier |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Este projeto consta com 4 desafios resolvidos do Leetcode, sendo eles:
 
-## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+Colocar os problemas aqui...
 
+## Vídeos
+* **Solução Q1:** [link]()
+* **Solução Q2:** [link]()
+* **Solução Q3:** [link]()
+* **Solução Q4:** [link]()
+  
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+
+**Linguagem**: C++<br>
+**Framework**: Não possui frameworks<br>
+Para utilizar e testar os programas, primeiro é necessário ter um compilador de c/c++ instalado em sua máquina, caso não tenha, utilize esse fórum para baixar
+
+> [acesse-aqui](https://www.geeksforgeeks.org/installing-mingw-tools-for-c-c-and-changing-environment-variable/)
+
+Após instalar o compilador em sua máquina, clone o repositório utilizando
+
+``` bash
+git clone <link do repisotório>
+```
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Após clonar o repositório, entre na pasta via terminal e compile os códigos utilizando
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+``` bash
+g++ -Wall -o <nome_arquivo_compilado> <arquivo_para_compilar>
+```
 
+ex: 
 
+``` bash
+g++ -Wall -o main Q1.cpp
+```
 
+Um arquivo executável (.exe) será criado, para realizar os testes, utilize
 
+```bash
+./main
+```
+
+Dessa forma será possível utilizar os casos de teste dos programas. Também é possível colocar os casos de teste em algum arquivo de texto e utilizar o comando cat para testá-los
+
+``` bash
+cat <arquivo.txt> | ./main
+```
