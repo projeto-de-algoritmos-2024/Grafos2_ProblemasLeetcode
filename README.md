@@ -11,11 +11,18 @@
 ## Sobre 
 Este projeto consta com 4 desafios resolvidos do Leetcode, sendo eles:
 
-Colocar os problemas aqui...
+- **(Q1) 1514. Path with Maximum Probability:** Dado um grafo não direcionado ponderado, onde cada aresta tem uma probabilidade de sucesso associada, encontre o caminho com a maior probabilidade de sucesso de um nó inicial (`start`) para um nó final (`end`). Retorne essa probabilidade ou 0 caso não exista um caminho viável. [link](https://leetcode.com/problems/path-with-maximum-probability/description/)
+- **(Q2) 2290. Minimum Obstacle Removal to Reach Corner:** Dada uma grade 2D onde:
+	- 00: célula vazia
+	- 11: obstáculo
+
+	Determine o número mínimo de obstáculos a serem removidos para mover do canto superior esquerdo (0,0)(0,0) para o canto inferior direito (m−1,n−1)(m−1,n−1), utilizando apenas movimentos válidos (cima, baixo, esquerda, direita). [link](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/description/?envType=daily-question&envId=2024-11-28)
+
+
 
 ## Vídeos
-* **Solução Q1:** [link]()
-* **Solução Q2:** [link]()
+* **Solução Q1:** [link](https://youtu.be/GMKOA1RZh1M)
+* **Solução Q2:** [link](https://youtu.be/J24wFlqYk_U)
 * **Solução Q3:** [link]()
 * **Solução Q4:** [link]()
   
