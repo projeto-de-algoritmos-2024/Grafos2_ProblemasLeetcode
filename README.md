@@ -11,20 +11,29 @@
 ## Sobre 
 Este projeto consta com 4 desafios resolvidos do Leetcode, sendo eles:
 
-- **(Q1) 1514. Path with Maximum Probability:** Dado um grafo não direcionado ponderado, onde cada aresta tem uma probabilidade de sucesso associada, encontre o caminho com a maior probabilidade de sucesso de um nó inicial (`start`) para um nó final (`end`). Retorne essa probabilidade ou 0 caso não exista um caminho viável. [link](https://leetcode.com/problems/path-with-maximum-probability/description/)
-- **(Q2) 2290. Minimum Obstacle Removal to Reach Corner:** Dada uma grade 2D onde:
+- **(Q1)-MEDIUM 1514. Path with Maximum Probability:** Dado um grafo não direcionado ponderado, onde cada aresta tem uma probabilidade de sucesso associada, encontre o caminho com a maior probabilidade de sucesso de um nó inicial (`start`) para um nó final (`end`). Retorne essa probabilidade ou 0 caso não exista um caminho viável. [link](https://leetcode.com/problems/path-with-maximum-probability/description/)
+- **(Q2)-HARD 2290. Minimum Obstacle Removal to Reach Corner:** Dada uma grade 2D onde:
 	- 00: célula vazia
 	- 11: obstáculo
 
 	Determine o número mínimo de obstáculos a serem removidos para mover do canto superior esquerdo (0,0)(0,0) para o canto inferior direito (m−1,n−1)(m−1,n−1), utilizando apenas movimentos válidos (cima, baixo, esquerda, direita). [link](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/description/?envType=daily-question&envId=2024-11-28)
+
+- **(Q3)-MEDIUM 743. Network Delay Time:** Dado um grafo com n nós:
+	Calcule o menor tempo necessário para que todos os n nós recebam um sinal enviado de um nó k. 
+	Se não for possível que todos os nós recebam o sinal, retorne -1. 
+	[link](https://leetcode.com/problems/network-delay-time/description/)
+
+- **(Q4)-HARD 2699. Modify Graph Edge Weights:** Dado um grafo com não direcionado:
+	menor distância entre os nós *source* e *destination* seja igual a um valor *target*.
+	[link](https://leetcode.com/problems/modify-graph-edge-weights/description/)
 
 
 
 ## Vídeos
 * **Solução Q1:** [link](https://youtu.be/GMKOA1RZh1M)
 * **Solução Q2:** [link](https://youtu.be/J24wFlqYk_U)
-* **Solução Q3:** [link]()
-* **Solução Q4:** [link]()
+* **Solução Q3:** [link](https://youtu.be/8D8ync5G4u4)
+* **Solução Q4:** [link](https://youtu.be/7WI7uL6e8Ss)
   
 ## Instalação 
 
